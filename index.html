@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>User Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="container">
+        <!-- row 1 -->
+        <!-- photo box -->
+        <div class="row d-flex justify-content-evenly mt-4">
+            <div class="card d-flex justify-content-evenly text-center col-sm-7 bg-white shadow box-area"  id="photoContainer">
+                <img src="./image/pro woman photo.webp" class="card-img-top" alt="Professional Photo">
+                <div class="card-body">
+                    <h2 class="card-text">Yamni Prudice</h2>
+                </div>
+            </div>
+
+            <!-- contact box -->
+            <div class="col-sm-5 row border rounder-3 p-3 bg-white shadow box-area">
+                <table class="table table-bordered table-hover table-">
+                    <thead>
+
+                        <tr>
+                            <th scope="col">Contact</th>
+                            <td scope="col"></td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">Email</th>
+                            <td>yprudice@hotmail.com</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Phone</th>
+                            <td>(421)897-2410</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Location</th>
+                            <td colspan="2">Twin Falls, ID </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <!-- row 2 -->
+
+        <div class="row d-flex justify-content-between mt-5">
+            <!-- connect box -->
+            <div class="col-sm-4  row border rounder-3 p-3 bg-white shadow box-area">
+                <table class="table table-bordered table-hover">
+                    <thead>
+                        <tr>
+                            <th scope="col">Connect</th>
+                            <th scope="col"></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">Facebook</th>
+                            <td><a href="#">yamniprudice</a></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Instagram</th>
+                            <td><a href="#">Insta.com/yamniprudice</a></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Github</th>
+                            <td colspan="2"><a href="#">yamniprudice</a></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">LinkedIn</th>
+                            <td><a href="#">linkedin.com/yamniprudice</a></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <!-- Companies box -->
+            <div class="col-sm-4 row border rounder-3 p-3 bg-white shadow box-area">
+                <table class="table table-bordered table-hover">
+                    <thead>
+                        <tr>
+                            <th scope="col">Companies</th>
+                            <th scope="col"></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">Stars n Space</th>
+                            <td><a href="#">starsnspace.com</a></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Public Mystery</th>
+                            <td><a href="#">publicmystery.com</a></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Pendant Studios</th>
+                            <td colspan="2"><a href="#">pendantstudios.com</a></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Glam Mystics</th>
+                            <td><a href="#">glammysticspark.com</a></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <!-- Investor box -->
+            <div class="col-sm-4 row border rounder-3 p-3 bg-white shadow box-area">
+                <table class="table table-bordered table-hover">
+                    <thead>
+                        <tr>
+                            <th scope="col">Investor Relations</th>
+                            <td scope="col">Become An Investor</td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">Stars n Space</th>
+                            <td><a href="#">starsnspace/invest.com</a></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Public Mystery</th>
+                            <td><a href="#">publicmystery/invest.com</a></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Pendant Studios</th>
+                            <td colspan="2"><a href="#">pendantstudios/invest.com</a></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Glam Mystics</th>
+                            <td><a href="#">glammysticspark/invest.com</a></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <!-- row 3/4 submission form -->
+            <!-- message box -->
+            <div class="row d-flex justify-content-center mt-5 row border rounder-3 p-3 bg-white shadow box-area">
+                <div class="col-sm-8">
+                    <!-- name field -->
+                    <form class="row g-3">
+                        <div class="col-md-4 row d-flex justify-content-center ">
+                            <label for="validationDefault01" class="form-label">Name</label>
+                            <input type="text" class="form-control" id="validationDefault01" placeholder="Name"
+                                required>
+                        </div>
+                </div>
+                <!-- text field -->
+                <div class="col-sm-8">
+                    <div class="mb-3">
+                        <label for="validationTextarea" class="form-label">Message</label>
+                        <textarea class="form-control" id="validationTextarea" placeholder="Text goes here"
+                            required></textarea>
+                        <div class="invalid-feedback">
+                            Please enter a message.
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <button class="btn btn-success" type="submit">Submit form</button>
+                    </div>
+
+                </div>
+
+                </form>
+            </div>
+
+
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+                integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+                crossorigin="anonymous">
+                </script>
+        </div>
+</body>
+
+</html>
